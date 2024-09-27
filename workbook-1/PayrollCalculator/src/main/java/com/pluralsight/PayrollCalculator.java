@@ -12,8 +12,20 @@ public class PayrollCalculator {
         float hours = scanner.nextFloat();
 
         System.out.println("Enter pay rate: ");
-        float pay = scanner.nextFloat();
+        float pay_rate = scanner.nextFloat();
 
-        System.out.println("Hello, " + name + "!" + " Your gross pay for working " + hours + " hours is: " + hours * pay);
+        float reg_pay = 0;
+        float ot_pay = 0;
+
+        if (hours > 40) {
+            float ot_hours = hours - 40;
+            ot_pay = ot_hours * 1.5F * pay_rate;      //remember to have 'F' next to float number
+            reg_pay = pay_rate * 40;
+        } else {
+            reg_pay = pay_rate * hours;
+        }
+        float total_pay = reg_pay + ot_pay;
+
+        System.out.println("Hello, " + name + "!" + " Your gross pay for working " + hours + " hours is: " + total_pay);
     }
 }
