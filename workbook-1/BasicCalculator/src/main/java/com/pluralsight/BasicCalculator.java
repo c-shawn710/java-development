@@ -14,6 +14,8 @@ public class BasicCalculator {
         System.out.println("Please select an option: ");
         System.out.println("(A)ddition, (S)ubtration, (M)ultiply, (D)ivide: ");
 
+        myScanner.close();
+
         //stores user input
         char ans = myScanner.next().charAt(0);
 
