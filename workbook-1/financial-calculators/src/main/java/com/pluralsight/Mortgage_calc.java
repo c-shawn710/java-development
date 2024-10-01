@@ -14,7 +14,7 @@ public class Mortgage_calc {
         System.out.println("Please input length of the loan in years: ");
         int loanYears = scanner.nextInt();
 
-        //Write it line by line
+        //Write it line by line, the new monthlyintRate gets stored and carried over to the next line.
         double monthlyintRate = (annualRate / 12);
         monthlyintRate += 1;
         monthlyintRate = Math.pow(monthlyintRate, 180);
@@ -25,9 +25,6 @@ public class Mortgage_calc {
         monthlyintRate *= loan;
 
         double totalInt = monthlyintRate * 12 * loanYears - loan;
-
-
-                //double monthlyPayment = loan * (((monthlyintRate) * Math.pow(1 + monthlyintRate, 180)) / Math.pow(1 + monthlyintRate, 180) - 1);
 
         System.out.println("Your expected monthly payment is: $" + monthlyintRate);
         System.out.println("Your total interest is: $ " + totalInt);
