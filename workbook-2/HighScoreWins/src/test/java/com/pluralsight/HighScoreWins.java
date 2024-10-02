@@ -41,12 +41,3 @@ public class HighScoreWins {
         }
     }
 }
-
-//User input score in following format Home:Visitor|21:9
-//Determine which team had the higher score and display the name of the winning team
-//Split the text once on the pipe ( | )
-//Split the text one on the colon ( : )
-
-/* Have it display like this:
-    Please enter a game score: (User input) Home:Visitor:21:9
-    Winner: Home     */
