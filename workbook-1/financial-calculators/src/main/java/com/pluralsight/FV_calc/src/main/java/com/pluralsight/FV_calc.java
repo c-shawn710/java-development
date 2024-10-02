@@ -18,11 +18,7 @@ public class FV_calc {
         double intRate = intPercentRate / 100;
         double total = intRate / dailyCompound;
         double result = dailyCompound * years;
-        //total += 1;
-        //total *= deposit;
         total = deposit*Math.pow(1+total, result);
-        //total = Math.pow((deposit *(1+(intRate/dailyCompound))), result);
-        //For some reason line 21, 22, 24 was resulting in 'Infinity'
 
         System.out.println("Your future value for your deposit is: $ " + total);
     }
