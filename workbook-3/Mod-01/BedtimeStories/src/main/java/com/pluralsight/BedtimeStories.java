@@ -11,12 +11,14 @@ public class BedtimeStories {
         String chosenStory = consoleScanner.nextLine();
 
         try {
-            FileInputStream fis = new FileInputStream(chosenStory + ".txt");
-            Scanner storyScanner = new Scanner(fis);
-            while (storyScanner.hasNextLine()) ;
+            int lineNumber = 1;
+            //FileInputStream fis = new FileInputStream(chosenStory + ".txt"); Alternative way
+            Scanner storyScanner = new Scanner(new FileInputStream(chosenStory + ".txt"));
+            while (storyScanner.hasNextLine()) {
             String line = storyScanner.nextLine();
-            System.out.println(line);
-
+            System.out.println(lineNumber + ". " + line);
+            lineNumber++;
+}
     }
         catch (Exception e) {
             e.printStackTrace();
