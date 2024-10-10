@@ -1,4 +1,4 @@
-package com.pluralsight.out.production.pluralsight.com.pluralsight;
+package com.pluralsight;
 
 public class Employee {
     private int employeeId;
