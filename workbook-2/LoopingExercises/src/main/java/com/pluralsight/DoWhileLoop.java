@@ -1,12 +1,13 @@
 package com.pluralsight;
 
-public class ForLoop {
+public class DoWhileLoop {
     public static void main(String[] args) throws InterruptedException {
-        for(int i = 10; i > 0; i--) {
-            System.out.println(i);
+        int x = 0;
+        do {
+            System.out.println("I love Java");
+            x++;
             Thread.sleep(1000);
         }
-        System.out.println("Launch!");
+        while (x < 5);
     }
 }
-

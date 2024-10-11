@@ -7,14 +7,20 @@ public class CellPhone {
     private String carrier = "";
     private String phoneNumber = "";
     private String owner = "";
+    private String phoneNumber2 ="";
 
     //Constructors
-    public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
-        this.serialNumber = serialNumber;
+    public CellPhone() {
+        this.serialNumber = serialNumber;       //this. is instance
         this.model = model;
         this.carrier = carrier;
         this.phoneNumber = phoneNumber;
         this.owner = owner;
+        this.phoneNumber2 = phoneNumber2;
+    }
+    //Create new CellPhone object.Objects don't use static methods.
+    public void dial(String phoneNumber2) {
+        System.out.println(this.owner + "'s phone is calling " + this.phoneNumber2);
     }
 
     public int getSerialNumber() {
@@ -56,4 +62,14 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    public String getPhoneNumber2() {
+        return phoneNumber2;
+    }
+
+    public void setPhoneNumber2(String phoneNumber2) {
+        this.phoneNumber2 = phoneNumber2;
+    }
 }
+
+
