@@ -1,17 +1,17 @@
 # java-development
-Shawn Chung
+# Shawn Chung
 
-# jsung.chung@gmail.com
+## jsung.chung@gmail.com
 San Francisco, CA 94115
 
 (415)-710-7094
 
 Aspiring software engineer with experience working to improve the performance of organizations serving thousands of individuals each year. Adept at collaborating with engineers while ensuring efficient and high-quality services. Career history of working to ensure compliance with organizational guidelines and industry best practices, promoting adherence to organizational policies and industry standards.
-# Highlights
+## Highlights
 * Communication: Strong communication skills with a focus on clarity & conciseness, conflict resolution, and active listening. Experienced in engaging with the public and leading discussions to build agreement and teamwork.
 * Situational Awareness: Anticipate team or project needs based on the environment or workflow.
 * Efficient: Prioritize tasks effectively to meet deadlines and maintain productivity while making informed decisions that balance speed and accuracy to ensure high quality.
-# Work Experience
+## Work Experience
 ## Ops Event Specialist
 ## TransDev Alternative Services
 San Francisco, CA
