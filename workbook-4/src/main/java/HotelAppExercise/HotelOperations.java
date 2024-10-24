@@ -13,6 +13,7 @@ public class HotelOperations {
         System.out.println("Is room 1 available?: " + room.isAvailable());
         System.out.println(room.checkIn());
         System.out.println(room.checkOut());
+        System.out.println(room.cleanRoom());
 
         Reservation reservation = new Reservation("king", 3, true);
         System.out.println(reservation.getPrice());
@@ -30,6 +31,6 @@ public class HotelOperations {
         System.out.println("Punch out: ");
         double punchOut = scanner.nextDouble();
 
-        System.out.println("Hours worked: " + employee.punchTimeCard(punchIn, punchOut));
+        System.out.println("Hours worked this shift: " + employee.punchTimeCard(punchIn, punchOut));
     }
 }

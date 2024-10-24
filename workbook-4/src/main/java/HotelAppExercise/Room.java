@@ -54,6 +54,10 @@ public class Room {
     }
 
     public boolean checkOut() {
-        return !dirty;
+        return !occupied && dirty;
+    }
+
+    public boolean cleanRoom() {
+        return isAvailable();
     }
 }
