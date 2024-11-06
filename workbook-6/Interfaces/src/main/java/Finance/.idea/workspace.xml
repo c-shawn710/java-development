@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84fa268d-64ee-44f9-a113-7aa7dda3a0f0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valuable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Assistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/FullTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniExercise2/Employee_Hierarchy/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise1/Animal_Hierarchy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise1/Animal_Hierarchy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Assistant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Assistant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/FullTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/FullTimeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Intern.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Intern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/PartTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/main/MiniExercise2/Employee_Hierarchy/PartTimeEmployee.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2oSGKBjtFLNlQFqfiAo46JDCDPh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/c_sha/Desktop/pluralsight/java-development/workbook-6"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Finance" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Finance" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84fa268d-64ee-44f9-a113-7aa7dda3a0f0" name="Changes" comment="" />
+      <created>1730855496947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730855496947</updated>
+    </task>
+    <servers />
+  </component>
+</project>
