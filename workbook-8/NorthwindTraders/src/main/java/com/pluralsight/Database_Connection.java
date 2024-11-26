@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Database_Connection {
     public static void main(String[] args) throws SQLException {
         //get the connection
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", "root", "yearup");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
 
         //create statement
         String query = "SELECT productName, productID FROM products";

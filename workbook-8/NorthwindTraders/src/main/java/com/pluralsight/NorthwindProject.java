@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.sql.*;
 import java.util.Scanner;
 
-public class pg53 {
+public class NorthwindProject {
     public static void main(String[] args) {
         if (args.length != 2) {
             System.out.println("Application needs two arguments to run: <username> + <password>");
@@ -36,14 +36,14 @@ public class pg53 {
         }
     }
 
-    public static String allProducts(String[] args) {
+    public static void allProducts(String[] args) {
         try (
-                Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
-                PreparedStatement statement = connection.prepareStatement("SELECT * FROM products")
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
+            PreparedStatement statement = connection.prepareStatement("SELECT * FROM products")
         ) {
 
             try (
-                    ResultSet rs = statement.executeQuery()
+                ResultSet rs = statement.executeQuery()
             ) {
 
                 while (rs.next()) {
@@ -60,13 +60,12 @@ public class pg53 {
                     System.out.println("--------------------------");
                 }
             }
-            return null;
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
 
-    public static String allCustomers(String[] args) {
+    public static void allCustomers(String[] args) {
         try (
                 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/northwind", args[0], args[1]);
                 PreparedStatement statement = connection.prepareStatement("SELECT * FROM customers")
@@ -88,8 +87,6 @@ public class pg53 {
                     System.out.println("Fax: " + rs.getString(11));
                     System.out.println("--------------------------");
                 }
-
-                return null;
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
